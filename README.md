@@ -1,6 +1,6 @@
 # Facial-recognition
 Machine Learning project that detects face, for a given image we can tell the subject id. Our dataset was 40 subjects and 10 images per subject. <br />
-1) We Converted every image into a vector of of 10304 (92x112) values corresponding to the image Size. <br />
+1) Converted every image into a vector of of 10304 (92x112) values corresponding to the image Size. <br />
 2) Stacked the 400 vectors into a single Data Matrix D and generated the label vector y.The labels are integers from 1:40 corresponding to the subject id. <br />
 3) Then splitted the dataset into training and test sets. <br />
 a.Kept odd rows From the Data Matrix D 400x10304 are for training and the even rows
